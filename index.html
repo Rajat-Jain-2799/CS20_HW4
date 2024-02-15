@@ -14,38 +14,33 @@
         h1 {
             color: #333;
         }
+        .header {
+            display: flex;
+            justify-content: space-between; /* Distributes space between children */
+            align-items: center; /* Aligns children vertically in the center */
+            padding: 10px 20px; /* Adds padding inside the header for spacing */
+        }
+        img.logo {
+            max-width: 100px; /* Adjust logo size */
+            height: auto;
+        }
+        h1 {
+            margin: 0; /* Removes default margin to align text properly */
+            font-size: 24px; /* Adjust the size as needed */
+        }
         #orderDetails {
-            background-color: #fff;
+            background-color: #ffffff;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            margin-top: 20px;
+            margin-top: 20px; /* Space between header and order details */
         }
-        p {
-            font-size: 16px;
-            color: #666;
-        }
-        .highlight {
-            color: #e74c3c;
-        }
-        .total {
-            font-weight: bold;
-            font-size: 18px;
-            color: #333;
-        }
-        img.logo {
-            max-width: 100px; 
-            height: auto;
-        }
-        .header {
-            display: flex;
-            justify-content: flex-start; /* Aligns children (logo) to the left */
-            padding: 10px 0 10px 20px; /* Adjusted padding for top-left alignment */
-        }
+        /* Additional styling here */
     </style>
 </head>
 <body>
     <div class="header">
+        <h1>Welcome to Joe's Hotdog Stand</h1>
         <img src="Logo.png" alt="Joe's Hotdog Stand Logo" class="logo">
     </div>
     <h1>Welcome to Joe's Hotdog Stand</h1>
