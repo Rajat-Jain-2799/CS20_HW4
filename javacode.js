@@ -1,9 +1,9 @@
 //these are all the constant values
-document.addEventListener('DOMContentLoaded', function() {
     const PRICE_HOTDOG = 4.65;
     const PRICE_FRIES = 3.75;
     const PRICE_SODA = 1.89;
-    const TAX_RATE = 0.0625; 
+    const TAX_RATE = 0.0625;
+
 
     function showMoney(value) {
         let rounded = Math.round(value * 100) / 100;
